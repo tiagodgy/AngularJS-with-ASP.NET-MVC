@@ -14,7 +14,7 @@
                     deferred.reject();
                 });
                 return deferred.promise;
-        );
+            };
         return service;
         }]);
 })();
